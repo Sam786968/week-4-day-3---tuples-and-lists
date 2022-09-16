@@ -15,10 +15,20 @@
 ###############################################Review############################################################
 #####################################challenge 1################################################################
 # Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
+my_list = ("John", 12, 32, "Men", "Frodo")
 
 # Add the element "motorcycle" to the following list of means of transportation:
 
+
+# append adds an element to the end 
+# pop removes the last element
 transportation_means = ["plane", "car", "ship", "bicycle"]
+(transportation_means.append("motorcycle"))
+print(transportation_means)
+(transportation_means.remove("car"))
+print(transportation_means)
+newTrans = transportation_means.pop()
+print("My new trans is " +newTrans)
 
 # You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
 
