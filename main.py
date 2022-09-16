@@ -116,6 +116,13 @@ print("First word is: " +word_list1[0])
 # add 3 items from the user into the empty list
 #print out the menu list
 
+food_idea = input("What food would you like? ")
+food = []
+food.append(food_idea)
+food.append(food_idea)
+food.append(food_idea)
+print(food)
+
 ##############################################################################################################
 # what are tuples?
 # exactly the same thing as an array only it is immutable, once you define the tuple, you cannot change it or modify it
