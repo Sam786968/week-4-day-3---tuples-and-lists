@@ -29,6 +29,9 @@ print(transportation_means)
 print(transportation_means)
 newTrans = transportation_means.pop()
 print("My new trans is " +newTrans)
+print(transportation_means)
+transportation_means.insert(1, "tesla")
+print(transportation_means)
 
 # You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
 
