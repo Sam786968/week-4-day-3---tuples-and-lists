@@ -55,95 +55,101 @@ my_list = ("John", 12, 32, "Men", "Frodo")
 # luckyNumbers.remove("lord tennyson")
 
 # ###### print the new list out without the last item
-# print(luckyNumbers)
+# # print(luckyNumbers)
 
-# ###### add three more items to the end of the list
-# luckyNumbers.append("Ben0")
-# luckyNumbers.append("Ben1")
-# luckyNumbers.append("Ben2")
+# # ###### add three more items to the end of the list
+# # luckyNumbers.append("Ben0")
+# # luckyNumbers.append("Ben1")
+# # luckyNumbers.append("Ben2")
 
-# ###### print the last item in the new list
-# print(luckyNumbers[-1])
+# # ###### print the last item in the new list
+# # print(luckyNumbers[-1])
 
-# ###### sort the list
-# friends.sort()
-# print(friends)
+# # ###### sort the list
+# # friends.sort()
+# # print(friends)
 
-# ###### find a way to insert a new item at the 3rd position of the list
-# luckyNumbers.insert(2, "new item")
+# # ###### find a way to insert a new item at the 3rd position of the list
+# # luckyNumbers.insert(2, "new item")
 
-# ###### print the new list out
-# print(luckyNumbers)
+# # ###### print the new list out
+# # print(luckyNumbers)
 
-# ##### reverse the list
-# luckyNumbers.reverse()
+# # ##### reverse the list
+# # luckyNumbers.reverse()
 
-# ###### print the new list out
-# print(luckyNumbers)
+# # ###### print the new list out
+# # print(luckyNumbers)
 
-# ###### print out the length of the new list
-# print(len(luckyNumbers))
+# # ###### print out the length of the new list
+# # print(len(luckyNumbers))
 
-#####################################challenge 2#######################################################
-# Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
-word_list = ["Simple", "is", "better", "than", "complex."]
-print(' '.join(word_list))
+# #####################################challenge 2#######################################################
+# # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
+# word_list = ["Simple", "is", "better", "than", "complex."]
+# print(' '.join(word_list))
 
-# Print the following text in uppercase, using the specific string method:
-text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
-print(text1.upper())
-# can use .lower
+# # Print the following text in uppercase, using the specific string method:
+# text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
+# print(text1.upper())
+# # can use .lower
 
-#substrings
-# Take every third character starting from the ninth to the end of the sentence, and print the result.
+# #substrings
+# # Take every third character starting from the ninth to the end of the sentence, and print the result.
 
-text2 = "Never trust a computer you can't throw out a window"
-print(text2[8::3])
+# text2 = "Never trust a computer you can't throw out a window"
+# print(text2[8::3])
 
-# Reverses the position of all the characters in the following sentence and displays the result on the screen.
+# # Reverses the position of all the characters in the following sentence and displays the result on the screen.
 
-text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
-print(text3[::-1])
+# text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
+# print(text3[::-1])
 
-# Extract the first word of the following sentence using slicing, and display it on the screen:
-phrase = "Controlling complexity is the essence of programming"
-print(phrase[0:11])
-word_list1 = phrase.split()
-print("First word is: " +word_list1[0])
+# # Extract the first word of the following sentence using slicing, and display it on the screen:
+# phrase = "Controlling complexity is the essence of programming"
+# print(phrase[0:11])
+# word_list1 = phrase.split()
+# print("First word is: " +word_list1[0])
 
-# create a text input that asks for choice of food
-#create an empty list variable called food
-# add 3 items from the user into the empty list
-#print out the menu list
+# # create a text input that asks for choice of food
+# #create an empty list variable called food
+# # add 3 items from the user into the empty list
+# #print out the menu list
 
-food_idea = input("What food would you like? ")
-food = []
-food.append(food_idea)
-food.append(food_idea)
-food.append(food_idea)
-print(food)
+# food_idea = input("What food would you like? ")
+# food = []
+# food.append(food_idea)
+# food.append(food_idea)
+# food.append(food_idea)
+# print(food)
 
 ##############################################################################################################
 # what are tuples?
+# tuples are immutable lists
 # exactly the same thing as an array only it is immutable, once you define the tuple, you cannot change it or modify it
 #you define a tuple with () instead of [] like you would in lists
 #once you define it, you cannot change it
 #example
 coordinates = (4, 5)
 # get the first element in the above tuple
+print(coordinates[1])
 # lets make this a multidimensional array
-coordindates2 = [(4, 5), (6, 7), (80, 34)]
+coordinates2 = [(4, 5), (6, 7), (80, 34)]
 #get the second element of the second item in coordinates2
-
+print(coordinates2[1][1])
 # we use parentheses not [] in tuples
 my_tuple1 = (1, 2, 3, 4)
+print(my_tuple1[1])
 # get the second item in the tuple1 above
 my_tuple = (1, 2, (10, 20), 4)
+print(my_tuple[2][0])
 # get the second item in the 3rd item above
 #hint multidimensional array thinking
 
 # place these numbers in separate variables from the tuple below
 t = (1, 2, 3)
+x,y,z = t
+print(x,y,z)
 
 #get me the length of the above tuple --- there are two ways of doing this... len(), count()...  use count if you want to get how many times an item appears in a tuple
 
