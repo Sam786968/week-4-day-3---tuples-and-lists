@@ -37,60 +37,62 @@ my_list = ("John", 12, 32, "Men", "Frodo")
 
 # You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
 
-# here are two lists:
-luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
-friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
-# instructions:
-######join both lists together in a new list
-luckyNumbers.extend(friends)
-# can use .append and .join
+# # here are two lists:
+# luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
+# friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
+# # instructions:
+# ######join both lists together in a new list
+# luckyNumbers.extend(friends)
+# # can use .append and .join
 
-###### print the new list out
-print(luckyNumbers)
+# ###### print the new list out
+# print(luckyNumbers)
 
-###### print out the first item in the list
-print(luckyNumbers[0])
+# ###### print out the first item in the list
+# print(luckyNumbers[0])
 
-###### remove the last item of the new list
-luckyNumbers.remove("lord tennyson")
+# ###### remove the last item of the new list
+# luckyNumbers.remove("lord tennyson")
 
-###### print the new list out without the last item
-print(luckyNumbers)
+# ###### print the new list out without the last item
+# print(luckyNumbers)
 
-###### add three more items to the end of the list
-luckyNumbers.append("Ben0")
-luckyNumbers.append("Ben1")
-luckyNumbers.append("Ben2")
+# ###### add three more items to the end of the list
+# luckyNumbers.append("Ben0")
+# luckyNumbers.append("Ben1")
+# luckyNumbers.append("Ben2")
 
-###### print the last item in the new list
-print(luckyNumbers[-1])
+# ###### print the last item in the new list
+# print(luckyNumbers[-1])
 
-###### sort the list
-friends.sort()
-print(friends)
+# ###### sort the list
+# friends.sort()
+# print(friends)
 
-###### find a way to insert a new item at the 3rd position of the list
-luckyNumbers.insert(2, "new item")
+# ###### find a way to insert a new item at the 3rd position of the list
+# luckyNumbers.insert(2, "new item")
 
-###### print the new list out
-print(luckyNumbers)
+# ###### print the new list out
+# print(luckyNumbers)
 
-##### reverse the list
-luckyNumbers.reverse()
+# ##### reverse the list
+# luckyNumbers.reverse()
 
-###### print the new list out
-print(luckyNumbers)
+# ###### print the new list out
+# print(luckyNumbers)
 
-###### print out the length of the new list
-print(len(luckyNumbers))
+# ###### print out the length of the new list
+# print(len(luckyNumbers))
 
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 word_list = ["Simple", "is", "better", "than", "complex."]
+print(' '.join(word_list))
 
 # Print the following text in uppercase, using the specific string method:
-
 text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
+print(text1.upper())
+# can use .lower
 
 #substrings
 # Take every third character starting from the ninth to the end of the sentence, and print the result.
